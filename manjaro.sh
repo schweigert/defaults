@@ -9,6 +9,10 @@ sudo pacman -S postgresql-libs
 sudo pacman -S net-tools
 sudo pacman -S vim
 
+# Remove sudo from docker
+sudo groupadd docker
+sudo usermod -aG docker $USER
+
 # Enable snapd and docker socket
 sudo systemctl enable --now snapd.socket
 sudo systemctl enable --now docker.socket
