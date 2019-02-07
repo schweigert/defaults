@@ -8,6 +8,8 @@ sudo pacman -S cmake
 sudo pacman -S postgresql-libs
 sudo pacman -S net-tools
 sudo pacman -S vim
+sudo pacman -S pacaur
+sudo pacman -S yaourt # Not recommended - Descontinued
 
 # Remove sudo from docker
 sudo groupadd docker
