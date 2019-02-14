@@ -23,3 +23,5 @@ git config --global user.signingkey YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 # Store GPG on bash profile
 test -r ~/.bash_profile && echo 'export GPG_TTY=$(tty)' >> ~/.profile
 echo 'export GPG_TTY=$(tty)' >> ~/.profile
+
+# Use git commit -S -m "Label now"
