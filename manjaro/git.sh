@@ -13,12 +13,12 @@ gpg --list-secret-keys --keyid-format LONG
 # -> /home/marlon/.gnupg/pubring.kbx
 # -> -------------------------------
 # -> sec   rsa4096/XXXXXXXXXXXXXXXXX 2019-02-14 [SC]
-# ->       B9C0C50C2EBDADED841C18C2D58E224913DBDF02
+# ->       YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 # -> uid                 [ultimate] Marlon Henry Schweigert (Github GPG key) <marlon.henry@magrathealabs.com>
 # -> ssb   rsa4096/XXXXXXXXXXXXXXXXX 2019-02-14 [E]
 
 gpg --armor --export XXX...XXX
-git config --global user.signingkey XXX...XXX
+git config --global user.signingkey YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
 # Store GPG on bash profile
 test -r ~/.bash_profile && echo 'export GPG_TTY=$(tty)' >> ~/.profile
