@@ -71,6 +71,10 @@ apm install file-icons
 # Generate SSH Key for github
 ssh-keygen
 
+# Config user and email
+git config --global user.name "schweigert"
+git config --global user.email "marlon.henry@magrathealabs.com"
+
 # Generate GPG Key for github
 gpg --full-generate-key # Select RSA and RSA
 gpg --list-secret-keys --keyid-format LONG
