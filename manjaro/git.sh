@@ -26,3 +26,5 @@ echo 'export GPG_TTY=$(tty)' >> ~/.profile
 
 # Use git commit -S -m "Label now"
 # Dont forget -S
+
+pacaur -S git-extras
