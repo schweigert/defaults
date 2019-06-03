@@ -1,2 +1,3 @@
 pacaur -S \
   ngrok
+  toggldesktop
