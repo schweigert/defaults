@@ -1,0 +1,10 @@
+ext install shardulm94.trailing-spaces
+ext install miguel-savignano.ruby-symbols
+ext install misogi.ruby-rubocop
+ext install groksrc.ruby
+ext install rebornix.ruby
+ext install casualjim.gotemplate
+ext install ms-vscode.go
+ext install waderyan.gitblame
+ext install ms-azuretools.vscode-docker
+ext install ms-vscode.cpptools
