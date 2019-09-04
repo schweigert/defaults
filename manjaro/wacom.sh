@@ -1,0 +1,1 @@
+pacaur -S kcm-wacomtablet
