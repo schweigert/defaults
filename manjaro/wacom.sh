@@ -1,1 +1,1 @@
-pacaur -S kcm-wacomtablet
+pacaur -S kcm-wacomtablet input-wacom-dkms
