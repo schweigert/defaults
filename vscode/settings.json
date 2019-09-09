@@ -1,0 +1,14 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "window.zoomLevel": -1,
+    "files.autoSave": "onFocusChange",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.startupEditor": "readme",
+    "editor.rulers": [80, 120]
+}
+
+# Save in ~/.config/Code/User/settings.json
