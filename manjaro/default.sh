@@ -21,3 +21,6 @@ sudo ln -s /var/lib/snapd/snap /snap
 # Remove sudo from docker
 sudo groupadd docker
 sudo usermod -aG docker $USER
+
+# Sync Time Server
+sudo timedatectl set-ntp true
