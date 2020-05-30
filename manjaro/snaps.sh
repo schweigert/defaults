@@ -3,5 +3,5 @@ sudo snap install insomnia
 sudo snap install slack --classic
 sudo snap install atom --classic
 sudo snap install skype --classic
-sudo snap install vscode --classic
+sudo snap install code --classic
 sudo snap install odrive --edge
