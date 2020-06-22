@@ -9,7 +9,8 @@ sudo pacman -S \
   postgresql-libs \
   net-tools \
   vim \
-  pacaur
+  pacaur \
+  linux54-headers
 
 # Enable snapd and docker socket
 sudo systemctl enable --now docker.socket
@@ -24,3 +25,5 @@ sudo usermod -aG docker $USER
 
 # Sync Time Server
 sudo timedatectl set-ntp true
+
+pacaur -S droidcam
